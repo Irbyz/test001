@@ -20,5 +20,7 @@ AfterShock XE codebase is available @ https://github.com/Irbyz/aftershock-xe
 You can currently get in touch with us on vihmu OpenArena team Discord 
 server that you can access with this invite link: 
 https://discord.gg/fd79Ktf
-or alternatively on IRC: [#vihmu @ irc.quakenet.org](irc://irc.quakenet.org/vihmu)
+or alternatively on IRC: #vihmu @ irc.quakenet.org
+
+[325]
                                                                        
