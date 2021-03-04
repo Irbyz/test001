@@ -1,8 +1,8 @@
 # AfterShock XE Changelog
 ## 2021-03-04 [Revision 329]
-- sha256 implementation from linux kernel.
+- Added sha256 implementation from linux kernel.
 
-- Implementation of minigames, simple action-based games to be
+- Added implementation of minigames, simple action-based games to be
 optionally played during warmup. First minigame: collect spawn points
 and gain quad when completed (timed).
 
