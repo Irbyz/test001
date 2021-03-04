@@ -30,4 +30,4 @@ CPM ruleset
 by [**Metro-MP**](https://gitlab.com/Metro-MP) - practice mode 
 (`g_practice`, `g_practiceDefault`, `g_practiceLock`),
 `g_newTeleportHeight`
-[**Linux kernel**](https://www.kernel.org/) - sha256 implementation
+- [**Linux kernel**](https://www.kernel.org/) - sha256 implementation
