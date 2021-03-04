@@ -2,16 +2,12 @@
 ## 2021-03-04 [Revision 329]
 - Added sha256 implementation from linux kernel.
 
-- Implementated minigames, simple action-based games to be
+- Implemented minigames, simple action-based games to be
 optionally played during warmup. First minigame: collect spawn points
 and gain quad when completed (timed).
-
 - Added `cv` alias for `callvote` command.
-
 - BUGFIX: multiview drawcrosshairnames
-
 - Fixed a bug when `coinflip` didn't return properly randomised results
-
 - Added practice mode (backport from AfterShock XE EX). This is a new 
 mode that will switch between infinite ammo and no damage to limited
 ammo and damage enabled. Note that the effect of practice mode will
@@ -24,33 +20,27 @@ only apply to freshly spawned clients.
 every map restart.
  - `g_practiceLock <0|1>` - when set, will disable the client's ability
 to toggle practice mode.
-
 - Added `g_newTeleportHeight <0-64>` (backport from AfterShock XE EX). 
 Setting it above 0 will raise the teleport height position after going 
 through a teleport.
-
 - Added Two new shotgun pellet patterns: gaussian and circle. Available 
 through cvar `g_sgPattern` (voteable). Default set to circle, 
 a compromise in terms of damage between the vanilla OA shotgun pattern 
 and the previously available AS one, while providing a better
 distribution than vanilla OA.
-
-- Taming of `g_thrufloors` splash damage. Previously this took values
-of `0` and `1` (disabled and enabled).
+- Added a way to tame `g_thrufloors` splash damage. Previously this 
+took values of `0` and `1` (disabled and enabled).
 Four new fixed values are now accepted:
     - `full` - walls ignored for splash damage, previous `1` value);
     - `high` - overall reduction to 66% damage relative to `full`;
     - `medium` - overall reduction to 50% damage wrt `full`;
     - `low` - overall reduction to 37.5% damage wrt `full`.
-
 - Weapon accuracies are now displayed on scoreboard for all gametypes
 except Duel and CTF. Only own stats are shown, except at the end of the
 match or while spectating.
-
 - Added location ping feature. Players can bind a key to
 `locPing` and use the command to place an icon as a means of
 communication in team games.
-
 - GUID info added to the server stats (GUID is buggy, but a fix exists
 and could be accepted in ioq3/OA in the near future)
 
