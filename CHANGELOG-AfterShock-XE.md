@@ -2,7 +2,7 @@
 ## 2021-03-04 [Revision 329]
 - Added sha256 implementation from linux kernel.
 
-- Added implementation of minigames, simple action-based games to be
+- Implementated minigames, simple action-based games to be
 optionally played during warmup. First minigame: collect spawn points
 and gain quad when completed (timed).
 
