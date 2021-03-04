@@ -12,13 +12,13 @@ enable.
 mode that will switch between infinite ammo and no damage to limited
 ammo and damage enabled. Note that the effect of practice mode will
 only apply to freshly spawned clients.
- - `practice` toggles practice mode.
- - `g_practice <0|1>` sets practice mode on the server:
-  - `0` - off = infinite ammo and no damage;
-  - `1` - on = limited ammo and damage enabled.
- - `g_practiceDefault <0|1>` - sets default mode for practice mode on 
+  - `practice` toggles practice mode.
+  - `g_practice <0|1>` sets practice mode on the server:
+   - `0` - off = infinite ammo and no damage;
+   - `1` - on = limited ammo and damage enabled.
+  - `g_practiceDefault <0|1>` - sets default mode for practice mode on 
 every map restart.
- - `g_practiceLock <0|1>` - when set, will disable the client's ability
+  - `g_practiceLock <0|1>` - when set, will disable the client's ability
 to toggle practice mode.
 - Added `g_newTeleportHeight <0-64>` (backport from AfterShock XE EX). 
 Setting it above 0 will raise the teleport height position after going 
