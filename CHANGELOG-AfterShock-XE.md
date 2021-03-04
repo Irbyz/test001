@@ -25,10 +25,10 @@ to toggle practice mode.
 Setting it above 0 will raise the teleport height position after going 
 through a teleport.
 - Added Two new shotgun pellet patterns: gaussian and circle. Available 
-through cvar `g_sgPattern` (voteable). Default set to circle, 
-a compromise in terms of damage between the vanilla OA shotgun pattern 
-and the previously available AS one, while providing a better
-distribution than vanilla OA.
+through cvar `g_sgPattern` (votable if included in `g_voteNames`). 
+Default set to `circle`, a compromise in terms of damage between the
+vanilla OA shotgun pattern and the previously available AS one, while
+providing a better distribution than vanilla OA.
 - Added a way to tame `g_thrufloors` splash damage. Previously this 
 took values of `0` and `1` (disabled and enabled).
 Four new fixed values are now accepted:
@@ -39,11 +39,11 @@ Four new fixed values are now accepted:
 - Weapon accuracies are now displayed on scoreboard for all gametypes
 except Duel and CTF. Only own stats are shown, except at the end of the
 match or while spectating.
-- Added location ping feature. Players can bind a key to
-`locPing` and use the command to place an icon as a means of
-communication in team games.
-- GUID info added to the server stats (GUID is buggy, but a fix exists
-and could be accepted in ioq3/OA in the near future)
+- Added location ping feature. Players can bind a key to `locPing` and
+use the command to place an icon as a means of communication in team 
+games.
+- Added GUID info to the server stats (GUID is buggy, but a fix exists
+and could be accepted in ioq3/OA in the near future).
 
 ## 2019-02-12 [Revision 328]
 - Fixed a bug when the server would crash when a player enters the 
