@@ -22,8 +22,7 @@ of other people's stuff
 [**sago007**](https://github.com/sago007), `cg_bob` by
 [**Jabba**](https://github.com/ldrone)
 - [**cpm1_dev_docs
-tutorial**]
-(https://web.archive.org/web/20210118073358/http://games.linuxdude.com/tamaps/archive/cpm1_dev_docs/) -
+tutorial**](https://web.archive.org/web/20210118073358/http://games.linuxdude.com/tamaps/archive/cpm1_dev_docs/) -
 CPM ruleset
 - [**MFArena**](https://mmpgames.wordpress.com/download/mfarena/) by
 [**Metro-MP**](https://gitlab.com/Metro-MP) - QW ruleset
