@@ -6,8 +6,8 @@ played during warmup. First minigame: collect spawn points
 and gain quad when completed (timed), `g_minigame <0|1>` to disable or 
 enable.
 - Added `cv` alias for `callvote` command.
-- Fixed a bug when player names were wrongly displayed in multiview.
-when players pointed crosshairs at others.
+- Fixed a bug when player names were wrongly displayed in multiview 
+when focused by crosshair.
 - Fixed a bug when `coinflip` didn't return properly randomised results
 - Added practice mode (backport from AfterShock XE EX). This is a new 
 mode that will switch between infinite ammo and no damage to limited
